@@ -1,0 +1,22 @@
+# Ignorar diretórios de build e cache
+target/
+debug/
+release/
+
+# Ignorar arquivos gerados pelo Cargo
+Cargo.lock
+*.rs.bk
+
+# Ignorar arquivos do editor/IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar logs e dumps
+*.log
+*.out
+*.dump
